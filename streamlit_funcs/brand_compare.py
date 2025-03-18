@@ -60,9 +60,9 @@ class BrandCompare():
         )
 
     def __get_labeled_brands(self):
-        lamoda_brands = self.__get_brands_df(st.session_state.lamoda_df, self.__query)
-        wb_brands = self.__get_brands_df(st.session_state.wb_df, self.__query)
-        ozon_brands = self.__get_brands_df(st.session_state.ozon_df, self.__query)
+        lamoda_brands = self.__get_brands_df(st.session_state.marketplaces['Lamoda'], self.__query)
+        wb_brands = self.__get_brands_df(st.session_state.marketplaces['Wildberries'], self.__query)
+        ozon_brands = self.__get_brands_df(st.session_state.marketplaces['Ozon'], self.__query)
 
         return {'Lamoda': self.__set_category(lamoda_brands), 
                 'Wildberries': self.__set_category(wb_brands), 
