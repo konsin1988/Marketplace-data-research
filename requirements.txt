@@ -1,6 +1,6 @@
 selenium
 io
-plotly
+plotly._subplots
 bs4
 re
 concurrent
