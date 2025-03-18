@@ -1,5 +1,4 @@
 selenium
-io
 plotly._subplots
 bs4
 re
