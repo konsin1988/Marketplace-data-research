@@ -1,6 +1,5 @@
 plotly
 bs4
-concurrent
 requests
 fake_useragent
 selenium_stealth
