@@ -1,6 +1,5 @@
 plotly
 bs4
-re
 concurrent
 requests
 fake_useragent
